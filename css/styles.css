@@ -63,3 +63,11 @@ body {
   margin: auto;
   max-width: 800px;
 }
+
+.featured-work-container {
+  display: flex;
+}
+
+.thumbnail img {
+  width: 100%;
+}
