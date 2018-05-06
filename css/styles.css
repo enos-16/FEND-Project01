@@ -13,7 +13,7 @@ body {
   align-items: flex-end;
   border-bottom: solid #7d97ad 4px;
   margin: 0.5rem auto 1rem;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .header img {
@@ -53,7 +53,7 @@ body {
 
 .main {
   margin: auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .main img {
@@ -65,7 +65,7 @@ body {
 
 .featured-work {
   margin: auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .featured-work-container {
@@ -75,8 +75,9 @@ body {
 
 .featured-work h3 {
   color: #94999c;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 300;
+  margin: 0.25em 0em 0.6em;
 }
 
 .thumbnail {
@@ -109,7 +110,7 @@ body {
 /* Footer */
 
 footer {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   border-top: solid #7d97ad 4px;
 }
@@ -117,4 +118,5 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-between;
+  padding: 0 0.5em 0;
 }
