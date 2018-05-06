@@ -1,0 +1,65 @@
+/* Responsive CSS */
+
+/* Small Devices and Phones(Portrait ) */
+
+@media screen and (max-width: 425px) {
+  /* Header */
+  .header {
+    margin-bottom: 0.35em;
+    border-bottom: solid #7d97ad 2px;
+  }
+
+  .logo-image {
+    display: none;
+  }
+
+  .logo-image-responsive {
+    display: initial;
+    height: 4.38em;
+    margin-bottom: 0.75rem;
+  }
+
+  .header-text {
+    padding-right: 0.25em;
+  }
+
+  .header-text h1 {
+    font-size: 2.7em;
+  }
+
+  .header-text h2 {
+    font-size: 1em;
+  }
+
+  /* Main */
+  .main img {
+    border-radius: 0px;
+  }
+
+  /* Featured Work */
+  .featured-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured-work h3 {
+    margin: 0.5rem auto 1rem;
+  }
+
+  .featured-work-container {
+    flex-direction: column;
+  }
+
+  .thumbnail h4 {
+    font-size: 1.5em;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75em;
+    margin-bottom: 1rem;
+  }
+}
